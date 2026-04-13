@@ -84,6 +84,12 @@ Translates Bear Blog UI snippets (footer "Powered by" text, subscribe page, and 
 
 [Code](/plugins/translate-snippets.js)
 
+### Link previews
+
+Transforms standalone links into rich preview cards showing the page title, description, and meta image. Links must be the sole content of a paragraph (e.g. a bare URL on its own line in Markdown).
+
+[Code](/plugins/link-previews.js)
+
 
 ## Dashboard
 These scripts can be added to [the footer of your dashboard](https://bearblog.dev/dashboard/customise/) in a `<script></script>` element.  
