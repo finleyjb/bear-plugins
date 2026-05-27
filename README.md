@@ -123,6 +123,12 @@ Replaces the Bear Blog post editor with the Overtype markdown editor, providing 
 
 [Code](/plugins/overtype.js)
 
+### Skip navigation
+
+Adds a "Skip to main content" link as the first focusable element on the dashboard, allowing keyboard users and screen readers to bypass navigation and jump directly to the main content area.
+
+[Code](/plugins/dashboard-skip-nav.js)
+
 ### Ace editor
 
 Replaces the Bear Blog post editor with the Ace code editor, providing Markdown syntax highlighting and enhanced editing features.
