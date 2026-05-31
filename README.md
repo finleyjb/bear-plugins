@@ -90,6 +90,14 @@ Transforms standalone links into rich preview cards showing the page title, desc
 
 [Code](/plugins/link-previews.js)
 
+### Aria current
+
+Sets the `aria-current` tag on links in the nav bar if they match the current page. Note that this checks the canonical URL in the link tag in the header. This has two benefits:
+
+1. It's more accessible.
+2. It allows you to style the link using CSS by querying `a[aria-current]`.
+
+[Code](/plugins/aria-current.js)
 
 ## Dashboard
 These scripts can be added to [the footer of your dashboard](https://bearblog.dev/dashboard/customise/) in a `<script></script>` element.  
